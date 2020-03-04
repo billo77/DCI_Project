@@ -1,0 +1,88 @@
+body {
+  /* background-image: url("/image/photo22.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background: rgb(206, 204, 204);  */
+  background-image: linear-gradient(to right, rgb(206, 204, 204),#6D4C41 , grey);
+
+
+}
+
+.nav2{
+  margin-top: 150px;
+}
+
+#img1 {
+  width: 550px;
+  height: 350px;
+  border: none;
+  border-radius: 18px;
+}
+
+#card1 {
+  width: 2300px;
+  height: 350px;
+  border: none;
+  border-radius: 18px;
+}
+
+/* Section-4: Font Awesome */
+.section-a {
+  padding: 10px 0;
+  text-align: center;
+  background-image: linear-gradient(to right, #673AB7 , #F57C00,green);
+  color: #ffffff;
+}
+
+.section-a .fa {
+  font-size: 60px;
+}
+/*# sourceMappingURL=index.css.map */
+
+
+/*------Login Input CSS-----------*/
+.box{
+  text-align: center;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 3px solid #3498db;
+  padding: 14px 10px;
+  width: 350px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:hover,.box input[type = "password"]:hover{
+  background: #2ecc71;
+  width: 400px;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 400px;
+  background: aqua;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  background: white;
+  display: block; 
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #3498db;
+  padding: 8px 30px; 
+  outline: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 35px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+  color: white;
+} 
+.modal-content{
+   background: #80CBC4;
+}

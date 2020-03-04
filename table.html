@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--add Bs fontawesam-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- add Bs Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css"> 
+    <!-- add Bs Js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
+    <title>Table Employees</title>
+    <link rel="icon" type="image/png" href="/image/dci8.png">
+    </head>
+    <body>
+
+       <!-- Section-1: Nav Bar Menu  -->
+       <div class="alper">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+              <!-- Logo Image -->
+              <a href="#" class="navbar-brand"></a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse2">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+      <!-- Nav items -->
+            <div class="collapse navbar-collapse" id="navbarCollapse2">
+              <div class="navbar-nav">
+              <a href="index.html" target="_blank" class="nav-item nav-link active"><i class="fa fa-home"></i> Home </a>
+              <a href="#" class="nav-item nav-link"><i class="fa fa-user"></i> About </a>
+              <a href="#" class="nav-item nav-link"><i class="fa fa-user"></i> Products </a>
+            </div>
+      <!-- Search -->
+                <form class="form-inline ml-auto">
+                    <input type="text" class="form-control form-control-sm mr-2" placeholder="Search">
+                    <button type="button" class="btn btn-sm btn-outline-light"><i class="fa fa-search"></i> Search</button>
+                </form>
+              </div>
+
+      <!-- Dropdown -->
+      <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle text-white" data-toggle="dropdown"><i class="fa fa-envelope"></i> Login </a>
+          <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Login</a>
+          <a href="#" class="dropdown-item">Register</a>
+          <a href="#" class="dropdown-item">Password</a>
+          </div>
+          </div>
+      </nav>
+  </div>        
+      
+
+      <p class="display-1 text-center text-info mt-5 mb-5">Our Team</p>
+
+      <div class="container">
+      <div class="form-group">
+          <label for="usr">Name :</label>
+          <input type="text" class="form-control" placeholder="Enter a Name..." id="usr" lang="es">
+        </div>
+      </div>
+
+      <div class="container mt-1 mb-5">
+        <div class="row">
+            
+          <table class="table table-hover table-borderless">
+            <thead>
+              <tr>
+                <th class="text-success" scope="col" class="text-info">*</th>
+                <th class="text-success" scope="col">Name</th>
+                <th class="text-success" scope="col">Surname</th>
+                <th class="text-success" scope="col">Duty</th>
+                <th class="text-success" scope="col">Contact</th>
+                <th class="text-success" scope="col">E-mail</th>
+                <th class="text-success" scope="col">Workplace</th>
+              </tr>
+            </thead>
+          <tbody>
+              <tr>
+                <th scope="row" class="text-info">1</th>
+                <td><b>Alper</b></td>
+                <td>Ece</td>
+                <td class="text-danger">Frontend Trainer</td>
+                <td><b>01763579367</b></td>
+                <td>alper@yahoo.com</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">2</th>
+                <td><b>Yasmin</b></td>
+                <td>Jacob</td>
+                <td class="text-primary">Project Manager</td>
+                <td><b>01536500982</b></td>
+                <td>yasmin@dci.org</td>
+                <td><b>Hamburg</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">3</th>
+                <td><b>Himanshu</b></td>
+                <td>Thakur</td>
+                <td class="text-danger">Backend Trainer</td>
+                <td><b>01763575678</b></td>
+                <td>manshu@gmail.com</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">4</th>
+                <td><b>David</b></td>
+                <td>Carus</td>
+                <td class="text-primary">Quality Managment</td>
+                <td><b>01703579367</b></td>
+                <td>david.carus@dci.org</td>
+                <td><b>berlin</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">5</th>
+                <td><b>Nicolas</b></td>
+                <td>Athor</td>
+                <td class="text-danger">Marketing Manager</td>
+                <td><b>01637765970</b></td>
+                <td>nicolas@hotmail.com</td>
+                <td><b>Berlin</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">6</th>
+                <td><b>Shmaila</b></td>
+                <td>Iqbal</td>
+                <td class="text-primary">Educational Counselling</td>
+                <td><b>01519981534</b></td>
+                <td>shmaila.iqbal@yahoo.com</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">7</th>
+                <td><b>Sophie</b></td>
+                <td>marick</td>
+                <td class="text-danger">Program Manager</td>
+                <td><b>01763579367</b></td>
+                <td>sophie@gmail.com</td>
+                <td><b>Leipzig</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">8</th>
+                <td><b>Nadine</b></td>
+                <td>Kuvalo</td>
+                <td class="text-primary">Talent Manager</td>
+                <td><b>01598657278</b></td>
+                <td>nadine.kuvalo@dci.org</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">9</th>
+                <td><b>Tony</b></td>
+                <td>Jabis</td>
+                <td class="text-danger">Marketing Trainee</td>
+                <td><b>01627675342</b></td>
+                <td>tony@dci.org</td>
+                <td><b>Berlin</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">10</th>
+                <td><b>Phiona</b></td>
+                <td>Zambik</td>
+                <td class="text-primary">Office Manager</td>
+                <td><b>01524657320</b></td>
+                <td>phiona@yahoo.com</td>
+                <td><b>Leipzig</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">11</th>
+                <td><b>Mazomal</b></td>
+                <td>Garuth</td>
+                <td class="text-danger">Head of Marketing</td>
+                <td><b>01763579367</b></td>
+                <td>mazomal@dci.org</td>
+                <td><b>Hamburg</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">12</th>
+                <td><b>Eckhard</b></td>
+                <td>Leifert</td>
+                <td class="text-primary">Online Marketing</td>
+                <td><b>01719807641</b></td>
+                <td>eckhard.leifert@gmail.org</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">13</th>
+                <td><b>Luisa</b></td>
+                <td>Jularo</td>
+                <td class="text-danger">Marketing Trainer</td>
+                <td><b>01773675387</b></td>
+                <td>luisa@yahoo.com</td>
+                <td><b>Hamburg</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">14</th>
+                <td><b>Sonia</b></td>
+                <td>Ventor</td>
+                <td class="text-primary">Project Manager</td>
+                <td><b>015789562365</b></td>
+                <td>sonia.ventor@dci.org</td>
+                <td><b>Leipzig</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">15</th>
+                <td><b>Bülent</b></td>
+                <td>Kayici</td>
+                <td class="text-danger">Fullstack Trainer</td>
+                <td><b>01638976523</b></td>
+                <td>bülent@dci.org</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-info">16</th>
+                <td><b>Dominik</b></td>
+                <td>Baedorf</td>
+                <td class="text-primary">Project Manager</td>
+                <td><b>01726380758</b></td>
+                <td>domenik@dci.org</td>
+                <td><b>Düsseldorf</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+    </body>
+    </html>
